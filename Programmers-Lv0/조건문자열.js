@@ -10,4 +10,4 @@ const operations = {
 function solution(ineq, eq, n, m) {
     const op = operations[ineq + eq];
     return Number(op(n, m));
-}
+} 
