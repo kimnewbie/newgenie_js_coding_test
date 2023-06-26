@@ -1,4 +1,4 @@
-//
+// https://school.programmers.co.kr/learn/courses/30/lessons/181860 // 한 번 더 풀어보자
 
 function solution(arr, flag) {
     return arr.reduce(
