@@ -5,7 +5,7 @@ function solution(strArr) {
 }
 
 function solution(strArr) {
-    strArr.reduce(
+    return strArr.reduce(
         (acc, cur, idx) => [...acc, idx % 2 === 0 ? cur.toLowerCase() : cur.toUpperCase()], []
     )
 }
