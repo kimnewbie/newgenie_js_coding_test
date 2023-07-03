@@ -1,4 +1,4 @@
-// https://school.programmers.co.kr/learn/courses/30/lessons/181836 
+// https://school.programmers.co.kr/learn/courses/30/lessons/181836 // 다시 봐야돼
 
 function solution(picture, k) {
     const newPicture = [];
