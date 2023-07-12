@@ -4,10 +4,9 @@ function solution(my_string) {
     const vowels = ['a', 'e', 'i', 'o', 'u'];
     let result = '';
 
-    for (let i = 0; i < my_string.length; i++) {
-        const char = my_string[i];
-        if (!vowels.includes(char)) {
-            result += char;
+    for (let i of my_string) {
+        if (!vowels.includes(i)) {
+            result += i;
         }
     }
 
