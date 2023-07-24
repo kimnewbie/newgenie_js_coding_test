@@ -9,4 +9,4 @@ function solution(n) {
         }
     }
     return [...new Set(answer)];
-}
+} 
