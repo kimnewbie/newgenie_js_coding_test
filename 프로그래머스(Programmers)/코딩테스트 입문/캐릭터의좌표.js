@@ -1,7 +1,12 @@
 // https://school.programmers.co.kr/learn/courses/30/lessons/120861
 
 function solution(keyinput, board) {
-    const [left, right, up, down] = [-parseInt(board[0] / 2), parseInt(board[0] / 2), parseInt(board[1] / 2), -parseInt(board[1] / 2)];
+    const [left, right, up, down] = [
+        -parseInt(board[0] / 2),
+        parseInt(board[0] / 2),
+        parseInt(board[1] / 2),
+        -parseInt(board[1] / 2)
+    ];
 
     let x = 0;
     let y = 0;
